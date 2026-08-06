@@ -46,7 +46,7 @@ main{
     
     .contents p:nth-of-type(2)::first-letter{
         font-weight: bold;
-        color: rgb(97 106 249);
+        color: rgb(97 206 249);
     }
     .contents img{
         margin:  10px 0;
@@ -59,10 +59,10 @@ main{
     footer a {
      color: rgb(255  255  255);
     }
-    footer a :visited{
+    footer a:visited{
         color: rgb(193 234 251);
     }
-    footer a :hover{
+    footer a:hover{
         color: rgb(245 178 168);
     }
     @media screen and (max-width:768px){
